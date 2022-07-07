@@ -74,6 +74,7 @@ public class BBEndpoint {
     }
 
 
+    
     @OnError
     public void error(Session session, Throwable t) {
         /* Remove this connection from the queue */

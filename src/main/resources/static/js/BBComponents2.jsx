@@ -43,7 +43,6 @@ class WSBBChannel {
 
 }
 
-
 class BBCanvas extends React.Component {
     constructor(props) {
         super(props);

@@ -13,4 +13,5 @@ public class BBConfigurator {
     public ServerEndpointExporter serverEndpointExporter() {
         return new ServerEndpointExporter();
     }
+   
 }

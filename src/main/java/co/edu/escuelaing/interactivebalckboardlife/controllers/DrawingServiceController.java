@@ -19,4 +19,5 @@ public class DrawingServiceController {
                 java.time.LocalTime.now() +
                 ". " + "The server is Runnig!\"}";
     }
+    
 }
