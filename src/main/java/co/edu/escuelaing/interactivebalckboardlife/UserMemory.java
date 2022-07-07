@@ -4,6 +4,7 @@
  */
 package co.edu.escuelaing.interactivebalckboardlife;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,5 +12,13 @@ import java.util.List;
  * @author cristian.forero-m
  */
 public class UserMemory {
-    private static List<Integer> instance;
+    
+    private static UserMemory _instance = new UserMemory();
+    private List<Integer> memory = new ArrayList<>();
+    
+    public UserMemory getInstance(){
+        return _instance;
+    }
+    
+    
 }
